@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Uygulama - Kullanım ve Kurulum
 
-## Getting Started
+Bu dosyada, uygulamanın frontend kısmının nasıl kurulacağı ve nasıl kullanılacağı adım adım anlatılmaktadır.
 
-First, run the development server:
+---
+
+## 🚀 Kurulum
+
+1. Projeyi klonlayın veya ZIP olarak indirin.
+2. Terminalde proje klasörüne gidin:
+
+```bash
+cd frontend
+```
+
+## Bağımlılıkları yükleyin:
+
+```bash
+npm install
+# veya
+yarn install
+```
+
+## Geliştirme sunucusunu başlatın:
 
 ```bash
 npm run dev
-# or
+# veya
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tarayıcınızda http://localhost:3000 adresini açın.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🛠️ Uygulama Kullanımı
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. API Key Ekleme
+   Uygulama açıldıktan sonra ekranda API Key girmeniz için bir alan olacaktır.
 
-## Learn More
+API Key'inizi ilgili kutuya yapıştırın ve onaylayın.
 
-To learn more about Next.js, take a look at the following resources:
+2. PDF Yükleme
+   API Key doğrulandıktan sonra, "PDF Yükle" butonu aktif olur.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+PDF dosyanızı seçin ve yükleyin.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Sohbet Etme
+   PDF yüklendikten sonra sohbet kutusuna istediğiniz soruyu yazabilirsiniz.
 
-## Deploy on Vercel
+Sistem, PDF içeriğine göre yanıt verecektir.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Sohbet geçmişiniz uygulama kapanana kadar saklanır.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# API Key yükleme
+
+![API Key yükleme](./public/images/api-key.png)
+
+# PDF Yükleme
+
+![PDF Yükleme](./public/images/upload-pdf.png)
+
+# Chat
+
+![Chat](./public/images/chat.png)
